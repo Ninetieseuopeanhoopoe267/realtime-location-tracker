@@ -1,6 +1,7 @@
 # Real-Time Location Tracker
 
-A lightweight, real-time location-sharing application built with Node.js, Socket.io, and Leaflet maps. Users can join a shared session, input their names, and see each other's geographical positions move on a map instantly.
+
+This is a lightweight web application that lets multiple users share and view their locations on a live map in real time. It uses WebSockets to broadcast movements instantly, meaning everyone connected can see exactly where other users are moving without needing to manually refresh the page.
 
 ## 🚀 Features
 
@@ -12,6 +13,13 @@ A lightweight, real-time location-sharing application built with Node.js, Socket
 ## App SS
 
 <img width="1800" height="1043" alt="Screenshot 2026-05-19 005518" src="https://github.com/user-attachments/assets/1e6928b8-37e3-45b4-89e6-af7668bc6fdc" />
+
+## Tech Stack
+- **Node.js** – JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express** - A fast, unopinionated, minimalist web framework for Node.js.
+- **Socket.IO** – Handles the real-time, bi-directional communication channels between the browser and server.
+- **Leaflet.js & OpenStreetMap** – Renders the visual map, pin tracking layers, and pop-up username bubbles.
+- **Vanilla JavaScript** – The programming language used for both client-side and server-side logic.
 
 ## 📂 Project Structure
 
