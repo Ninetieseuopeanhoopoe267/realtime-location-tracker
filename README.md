@@ -9,6 +9,11 @@ A lightweight, real-time location-sharing application built with Node.js, Socket
 - **Unique Identification**: Name-based user sign-in that prevents duplicate usernames in active sessions.
 - **Auto-Cleanup**: Instantly removes markers when users disconnect or close the tab.
 - **Responsive Web Design**: Optimized CSS layout for both desktop monitors and mobile devices.
+## App SS
+
+<img width="1800" height="1043" alt="Screenshot 2026-05-19 005518" src="https://github.com/user-attachments/assets/1e6928b8-37e3-45b4-89e6-af7668bc6fdc" />
+
+<img width="1503" height="798" alt="Screenshot 2026-05-19 005446" src="https://github.com/user-attachments/assets/ad741b09-ebc3-46fa-8686-1a46786b98e5" />
 
 ## 📂 Project Structure
 
