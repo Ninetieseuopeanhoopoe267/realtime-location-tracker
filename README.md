@@ -12,7 +12,8 @@ This is a lightweight web application that lets multiple users share and view th
 - **Responsive Web Design**: Optimized CSS layout for both desktop monitors and mobile devices.
 ## App SS
 
-<img width="1800" height="1043" alt="Screenshot 2026-05-19 005518" src="https://github.com/user-attachments/assets/1e6928b8-37e3-45b4-89e6-af7668bc6fdc" />
+<img width="1503" height="798" alt="Screenshot 2026-05-19 005446" src="https://github.com/user-attachments/assets/df2de155-6d0c-48bb-8d5a-db70e2fffc65" />
+
 
 ## Tech Stack
 - **Node.js** – JavaScript runtime built on Chrome's V8 JavaScript engine.
