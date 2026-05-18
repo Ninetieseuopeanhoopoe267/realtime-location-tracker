@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.join-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.join-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+  width: min(360px, 90%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  text-align: center;
+}
+
+.join-box h2 {
+  margin-bottom: 16px;
+  font-size: 1.3rem;
+}
+
+.join-box input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.join-box button {
+  width: 100%;
+  padding: 10px 12px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.join-box button:hover {
+  background: #0056d6;
+}
+
+.join-error {
+  margin-top: 10px;
+  color: #c62828;
+  font-size: 0.95rem;
+}
