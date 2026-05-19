@@ -1,5 +1,9 @@
 # Real-Time Location Tracker
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> afb47071c918f05d6a1065546f9666e5b284a7bb
 This is a lightweight web application that lets multiple users share and view their locations on a live map in real time. It uses WebSockets to broadcast movements instantly, meaning everyone connected can see exactly where other users are moving without needing to manually refresh the page.
 
 ## 🚀 Features
@@ -15,8 +19,13 @@ This is a lightweight web application that lets multiple users share and view th
 
 <img width="1503" height="798" alt="Screenshot 2026-05-19 005446" src="https://github.com/user-attachments/assets/df2de155-6d0c-48bb-8d5a-db70e2fffc65" />
 
+<<<<<<< HEAD
 ## Tech Stack
 
+=======
+
+## Tech Stack
+>>>>>>> afb47071c918f05d6a1065546f9666e5b284a7bb
 - **Node.js** – JavaScript runtime built on Chrome's V8 JavaScript engine.
 - **Express** - A fast, unopinionated, minimalist web framework for Node.js.
 - **Socket.IO** – Handles the real-time, bi-directional communication channels between the browser and server.
