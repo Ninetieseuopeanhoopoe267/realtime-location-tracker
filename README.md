@@ -2,6 +2,7 @@
 
 This is a lightweight web application that lets multiple users share and view their locations on a live map in real time. It uses WebSockets to broadcast movements instantly, meaning everyone connected can see exactly where other users are moving without needing to manually refresh the page.
 
+
 ## 🚀 Features
 
 - **Real-Time Position Updates**: High-precision tracking using the browser's Geolocation API.
