@@ -1,10 +1,7 @@
 const express = require("express");
-const http = require("http");
-const socketIo = require("socket.io");
-
 const app = express();
-const server = http.createServer(app);
-const io = socketIo(server);
+const server = require("http").createServer(app);
+const io = require("socket.io")(server);
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
@@ -14,15 +11,16 @@ const users = new Map();
 io.on("connection", (socket) => {
   socket.on("join", ({ name }) => {
     name = name?.trim();
-    if (!name) return socket.emit("joinRejected", { message: "Enter a name." });
-    if ([...users.values()].some((u) => u.name === name))
-      return socket.emit("joinRejected", { message: "Name taken." });
+    if (!name || [...users.values()].some((u) => u.name === name))
+      return socket.emit("joinRejected", {
+        message: !name ? "Enter a name." : "Name taken.",
+      });
 
     users.set(socket.id, { name, latitude: null, longitude: null });
     socket.emit("joinAccepted", { name });
     socket.emit(
       "activeUsers",
-      Array.from(users.entries(), ([id, u]) => ({ id, ...u })),
+      Array.from(users, ([id, user]) => ({ id, ...user })),
     );
   });
 
@@ -45,6 +43,5 @@ io.on("connection", (socket) => {
 });
 
 app.get("/", (req, res) => res.render("index"));
-
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, "0.0.0.0", () => console.log(`Server on port ${PORT}`));

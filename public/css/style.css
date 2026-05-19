@@ -11,8 +11,42 @@ body {
 }
 
 #map {
-  height: 100%;
+  height: calc(100% - 60px);
   width: 100%;
+  margin-top: 60px;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 18px;
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  z-index: 1000;
+}
+
+.top-bar .brand {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.top-bar .info {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.top-bar .info span {
+  white-space: nowrap;
 }
 
 .join-modal {
