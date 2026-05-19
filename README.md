@@ -2,7 +2,6 @@
 
 This is a lightweight web application that lets multiple users share and view their locations on a live map in real time. It uses WebSockets to broadcast movements instantly, meaning everyone connected can see exactly where other users are moving without needing to manually refresh the page.
 
-
 ## 🚀 Features
 
 - **Real-Time Position Updates**: High-precision tracking using the browser's Geolocation API.
@@ -17,7 +16,7 @@ This is a lightweight web application that lets multiple users share and view th
 <img width="1503" height="798" alt="Screenshot 2026-05-19 005446" src="https://github.com/user-attachments/assets/df2de155-6d0c-48bb-8d5a-db70e2fffc65" />
 
 ## Tech Stack
->>>>>>> afb47071c918f05d6a1065546f9666e5b284a7bb
+
 - **Node.js** – JavaScript runtime built on Chrome's V8 JavaScript engine.
 - **Express** - A fast, unopinionated, minimalist web framework for Node.js.
 - **Socket.IO** – Handles the real-time, bi-directional communication channels between the browser and server.
@@ -71,9 +70,14 @@ To see markers move across different phones or tablets:
 2. Connect your testing devices to the **same Wi-Fi network** as your host computer.
 3. Open your mobile browser and navigate to: **`http://YOUR_LAPTOP_IP:3000`**
 
-## 📝 Important Note on GPS Privacy
+## Important Note on GPS Privacy
 
 - This app requires standard browser **Geolocation permission** to work.
 - Most mobile web browsers block location access over unencrypted HTTP. When testing on a live public link, ensure you deploy using secure **HTTPS**.
 
+## Live Link
+You can try the [live demo here](https://realtime-location-tracker-gyqr.onrender.com/). (It might take a few seconds for server to wake up).
+
+
 ## Hope you have a nice day 😊
+
