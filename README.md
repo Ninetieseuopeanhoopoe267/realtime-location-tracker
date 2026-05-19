@@ -8,8 +8,10 @@ This is a lightweight web application that lets multiple users share and view th
 - **Real-Time Position Updates**: High-precision tracking using the browser's Geolocation API.
 - **Dynamic Mapping**: Interactive map interface powered by Leaflet.js and OpenStreetMap.
 - **Unique Identification**: Name-based user sign-in that prevents duplicate usernames in active sessions.
+- **Location Pickup**: Click any point on the map to see its latitude and longitude instantly.
 - **Auto-Cleanup**: Instantly removes markers when users disconnect or close the tab.
 - **Responsive Web Design**: Optimized CSS layout for both desktop monitors and mobile devices.
+
 ## App SS
 
 <img width="1503" height="798" alt="Screenshot 2026-05-19 005446" src="https://github.com/user-attachments/assets/df2de155-6d0c-48bb-8d5a-db70e2fffc65" />
